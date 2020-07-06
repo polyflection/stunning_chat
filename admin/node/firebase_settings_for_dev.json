@@ -1,0 +1,5 @@
+{
+  "flavor": "dev",
+  "projectId": "stunningchat-ed79e",
+  "serviceAccountKeyFilename": "node/firebase_admin_sdk_service_account/for_dev.json"
+}

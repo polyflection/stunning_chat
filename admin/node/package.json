@@ -1,0 +1,12 @@
+{
+  "name": "admin",
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "firebase-admin": "^8.10.0",
+    "@google-cloud/firestore": "3.7.5"
+  },
+  "devDependencies": {},
+  "private": true
+}

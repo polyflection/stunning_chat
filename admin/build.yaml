@@ -1,0 +1,15 @@
+targets:
+  $default:
+    sources:
+      - "bin/**"
+      - "lib/**"
+      - $package$
+    builders:
+      build_node_compilers|entrypoint:
+        generate_for:
+          - bin/**
+        options:
+          compiler: dart2js
+          # List any dart2js specific args here, or omit it.
+          dart2js_args:
+            - --minify
